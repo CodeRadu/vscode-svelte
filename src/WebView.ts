@@ -28,7 +28,7 @@ export class WebView {
     // Otherwise, create a new panel.
     const panel = vscode.window.createWebviewPanel(
       WebView.viewType,
-      "Todos",
+      "WebView",
       column || vscode.ViewColumn.One,
       {
         // Enable javascript in the webview
